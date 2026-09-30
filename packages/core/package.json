@@ -1,0 +1,16 @@
+{
+  "name": "@reposcan/core",
+  "version": "1.0.0",
+  "description": "Core scanning functionality",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "workspace:*"
+  }
+}

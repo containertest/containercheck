@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  eslint:
+    specifier: ^8.0.0
+    version: 8.56.0
+  prettier:
+    specifier: ^3.0.0
+    version: 3.1.1
+  typescript:
+    specifier: ^5.0.0
+    version: 5.3.3
+
+packages:
+  /eslint@8.56.0:
+    resolution: {integrity: sha512-Y+ifBFp+jsvzNfZ2LEOL+PT0RpOKzpCAI8+NAv2IIWrXMxvVu+gIntegration}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22Z7+DXzZbJc42Zrk4Vz7u+klHMXRzRxgOu+KT0dJT2qIqfkZFOXhVZQm7DI1E5hG6L8xjAW9V3N2tKG0qhYw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pMQkIrXwLvEju+SNqS0NtSe8JTkrulayer5r+GccJIJ7M7BRVNgpzqqJEFljLb6pidC3xrHxT3+V8wyMlewuCqQ==}
+    engines: {node: '>=14.6'}
+    hasBin: true
+    dev: true

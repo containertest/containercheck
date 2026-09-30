@@ -1,0 +1,12 @@
+packages:
+  - 'packages/*'
+  - 'apps/*'
+  - 'tools/*'
+
+catalog:
+  typescript:
+    version: ^5.0.0
+  eslint:
+    version: ^8.0.0
+  prettier:
+    version: ^3.0.0

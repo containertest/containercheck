@@ -1,0 +1,20 @@
+{
+  "name": "@reposcan/cli",
+  "version": "1.0.0",
+  "description": "CLI tool for repository scanning",
+  "main": "dist/index.js",
+  "bin": {
+    "reposcan": "dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@reposcan/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "workspace:*"
+  }
+}
