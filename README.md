@@ -1,4 +1,4 @@
-# RepoScan - pnpm Monorepos
+# RepoScan - pnpm Monoreposs
 
 A monorepo for repository scanning tools built with pnpm workspaces.
 
